@@ -1,0 +1,669 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Alata", "Josefin Sans", sans-serif;
+  font-style: normal;
+}
+
+.header {
+  width: 100%;
+  background-image: url(./images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 24px 227px 24px;
+}
+.loopstudios {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 144px;
+  height: 24px;
+}
+.img-press {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.impresive {
+  width: 100%;
+  padding: 26px 24px 24px 24px;
+  border: solid 2px white;
+  margin-top: 163px;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.vr {
+  width: 100%;
+  padding: 368px 48px 96px 48px;
+  background-image: url(./images/mobile/image-interactive.jpg);
+  background-repeat: no-repeat;
+  background-size: 327px 224px;
+  background-position: center top 96px;
+}
+.vr-text-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.foundation {
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-top: 16px;
+}
+
+.creations {
+  width: 100%;
+  padding: 0px 24px 96px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.creations-header {
+  width: 100%;
+}
+h3 {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+
+p {
+  text-align: left;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.grid-item {
+  padding: 52px 0px 20px 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  position: relative;
+}
+
+.earth {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0%,
+      rgba(0, 0, 0, 0.601863) 100%
+    ),
+    url(./images/mobile/image-deep-earth.jpg);
+}
+.arcade {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0%,
+      rgba(0, 0, 0, 0.601863) 100%
+    ),
+    url(./images/mobile/image-night-arcade.jpg);
+}
+
+.soccer {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0%,
+      rgba(0, 0, 0, 0.601863) 100%
+    ),
+    url(./images/mobile/image-soccer-team.jpg);
+}
+.the-grid {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0%,
+      rgba(0, 0, 0, 0.601863) 100%
+    ),
+    url(./images/mobile/image-grid.jpg);
+}
+.from-up {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0%,
+      rgba(0, 0, 0, 0.601863) 100%
+    ),
+    url(./images/mobile/image-from-above.jpg);
+}
+
+.pocket {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0%,
+      rgba(0, 0, 0, 0.601863) 100%
+    ),
+    url(./images/mobile/image-pocket-borealis.jpg);
+}
+.curiosity {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0%,
+      rgba(0, 0, 0, 0.601863) 100%
+    ),
+    url(./images/mobile/image-curiosity.jpg);
+}
+.fisheye {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0%,
+      rgba(0, 0, 0, 0.601863) 100%
+    ),
+    url(./images/mobile/image-fisheye.jpg);
+}
+.see-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid black;
+  margin-top: 34px;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 13px 43px 13px 43px;
+}
+
+.see-all:hover {
+  background: black;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  padding: 56px 51px 56px 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loopstudios-footer {
+  width: 144px;
+  height: 24px;
+  margin: auto;
+}
+.info {
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+.add-margin {
+  margin-top: 32px;
+}
+.footer-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  width: 100%;
+  margin-top: 50px;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.twit,
+.icon-pinterest,
+.insta {
+  margin-left: 16px;
+}
+.copy {
+  width: 100%;
+  margin-top: 16px;
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.index2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  transition: top 5s ease;
+  padding: 40px 27px 223px 27px;
+  background-color: black;
+}
+
+span {
+  color: white;
+  font-size: 20px;
+}
+.info2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+.add-margin2 {
+  margin-top: 160px;
+}
+
+.hidden {
+  display: none;
+}
+.img-press1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.desktop-header-info,
+.see-all-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    width: 100%;
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 165px 146px 165px;
+  }
+  .img-press {
+    display: none;
+  }
+  .desktop-header-info {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 380px;
+  }
+  .desktop-info {
+    font-family: "Alata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    background: none;
+    cursor: pointer;
+    border: none;
+  }
+
+  .impresive {
+    width: 650px;
+    padding: 40px;
+    border: solid 2px white;
+    margin-top: 130px;
+  }
+
+  h1 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .vr {
+    width: 100%;
+    padding-left: 734px;
+    padding-top: 368px;
+    padding-right: 165px;
+    padding-bottom: 184px;
+
+    background-image: url(./images/desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-size: 731px 500px;
+    background-position: left 165px top 160px;
+  }
+  .vr-text-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    padding-left: 96px;
+    background-color: white;
+  }
+  h2 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+  }
+  .foundation {
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .creations {
+    padding: 0px 162px 184px 162px;
+  }
+  .creations-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .see-all {
+    display: none;
+  }
+  .header-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  h3 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .see-all-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    margin: 0;
+    cursor: pointer;
+    background-color: white;
+    font-family: "Alata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: black;
+    padding: 13px 43px 13px 43px;
+  }
+  .see-all-desktop:hover {
+    background: black;
+    color: white;
+  }
+
+  .grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 80px;
+  }
+
+  .grid-item {
+    width: 100%;
+    padding: 354px 0px 32px 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+  p {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .earth {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.601863) 100%
+      ),
+      url(./images/desktop/image-deep-earth.jpg);
+  }
+  .arcade {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.601863) 100%
+      ),
+      url(./images/desktop/image-night-arcade.jpg);
+  }
+
+  .soccer {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.601863) 100%
+      ),
+      url(./images/desktop/image-soccer-team.jpg);
+  }
+  .the-grid {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.601863) 100%
+      ),
+      url(./images/desktop/image-grid.jpg);
+  }
+  .from-up {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.601863) 100%
+      ),
+      url(./images/desktop/image-from-above.jpg);
+  }
+
+  .pocket {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.601863) 100%
+      ),
+      url(./images/desktop/image-pocket-borealis.jpg);
+  }
+  .curiosity {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.601863) 100%
+      ),
+      url(./images/desktop/image-curiosity.jpg);
+  }
+  .fisheye {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.601863) 100%
+      ),
+      url(./images/desktop/image-fisheye.jpg);
+  }
+
+  .footer {
+    padding: 44px 165px 44px 165px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .loopstudios-footer {
+    margin: 0;
+  }
+  .footer-section1 {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+
+    align-items: flex-start;
+  }
+  .footer-info-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+  }
+  .add-margin,
+  .info {
+    margin: 0;
+  }
+  .footer-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .icons {
+    margin: 0;
+    padding-left: 136px;
+    padding-right: 0;
+    justify-content: space-between;
+  }
+  .copy {
+    font-weight: 400;
+    font-size: 15px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .twit,
+  .icon-pinterest,
+  .insta {
+    margin-left: 0;
+  }
+  .desktop-info:hover,
+  .info:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+
+  .earth::before,
+  .arcade::before,
+  .soccer::before,
+  .the-grid::before,
+  .from-up::before,
+  .pocket::before,
+  .curiosity::before,
+  .fisheye::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.75071);
+    opacity: 0;
+    transition: opacity 0s ease-in-out;
+  }
+
+  .earth:hover::before,
+  .arcade:hover::before,
+  .soccer:hover::before,
+  .the-grid:hover::before,
+  .from-up:hover::before,
+  .pocket:hover::before,
+  .curiosity:hover::before,
+  .fisheye:hover::before {
+    opacity: 1;
+  }
+}
